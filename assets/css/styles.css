@@ -1,0 +1,38 @@
+/* === NAVBAR === */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+nav {
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+/* Centraliza o texto das opçs do menu
+quando a tela esta menor que 1024px */
+
+.navbar-item {
+    text-align: center;
+}
+
+
+/* Add  efeito hover vermelho */
+
+.hvr-navbar-item {
+    box-shadow: inset 0 0 0 0 #AC2222;
+    margin: 0 .20rem;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.hvr-navbar-item:hover {
+    box-shadow: inset 0 4px 0 0 #AC2222;
+    color: #AC2222 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .my-navbar-item {
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+
+/* === NAVBAR === */
